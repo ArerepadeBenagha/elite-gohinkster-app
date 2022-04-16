@@ -50,3 +50,8 @@ Requests are authenticated using the `Authorization` header with a valid JWT. We
 <br />
 
 [![Brought to you by Thinkster](https://raw.githubusercontent.com/gothinkster/realworld/master/media/end.png)](https://thinkster.io)
+
+## Personal notes
+## Install 3 plugins , pipeline, Nodejs and cloudbees
+## make permissions sudo chmod 666 /var/run/docker.sock
+
