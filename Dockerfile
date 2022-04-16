@@ -1,13 +1,12 @@
-# Base image
-FROM node
-MAINTAINER Louis Benagha
+FROM node:6-alpine
+
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
+
+COPY package.json /usr/src/app/
+RUN npm install && npm cache clean
 COPY . /usr/src/app
 
-## Install app dependencies
-RUN npm install
-EXPOSE 3000
+EXPOSE 8080
 
-## run the application
-CMD ["start", "node ./app.js"]
+CMD [ "npm", "start" ]
