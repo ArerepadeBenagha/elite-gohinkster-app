@@ -1,7 +1,7 @@
 /* CI pipeline */
 pipeline {
     environment {
-    registry = "elitesolutionsit/fbreactapp"
+    registry = "elitesolutionsit/gothinkster"
     registryCredential = 'dockerhub_id'
     dockerImage = ''
     }
