@@ -39,3 +39,4 @@ node_modules
 //// ignore docker
 Dockerfile
 README.md
+Jenkinsfile
